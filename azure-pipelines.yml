@@ -20,6 +20,6 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName azureprm2 -linkedTemplateUri https://raw.githubusercontent.com/ImpulseTechnovation/azureprm/master/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName azureprm3 -linkedTemplateUri https://raw.githubusercontent.com/ImpulseTechnovation/azureprm/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'deppipe2'
+    deploymentName: 'deppipe3'
